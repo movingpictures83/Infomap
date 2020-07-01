@@ -12,7 +12,7 @@ void InfomapPlugin::run() {}
 void InfomapPlugin::output(std::string file) {
  std::string outputfile = file;
  std::string myCommand = "";
-myCommand += "Infomap";
+myCommand += "Infomap -s 1234";
 myCommand += " ";
 myCommand += inputfile + " ";
 myCommand += outputfile + " ";
